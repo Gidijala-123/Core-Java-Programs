@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class AreaOfRhombus {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter val of diagonal 1 : ");
+		double d1 = s.nextDouble();
+		System.out.println("Enter val of diagonal 2 : ");
+		double d2 = s.nextDouble();
+		System.out.println("Area of Rectange is : "+(d1*d2)/2);
+	}
+
+}
